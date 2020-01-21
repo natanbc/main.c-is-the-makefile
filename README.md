@@ -20,3 +20,7 @@ Me too
 - `#` marks a line as a comment in a Makefile
 - make ignores all text between `ifeq (A,B)` and `endif`
 
+# Bonus
+
+There's also a makefile that's a valid C program in the `bonus` folder.
+`make run` it.
