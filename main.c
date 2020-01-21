@@ -1,13 +1,13 @@
 #if 0
 
 square.o:
-	cc -c -o square.o square.c
+	${CC} -c -o square.o square.c
 
 main.o:
-	cc -c -o main.o main.c
+	${CC} -c -o main.o main.c
 
 all: square.o main.o
-	cc -o a.out main.o square.o
+	${CC} -o a.out main.o square.o
 
 run: all
 	./a.out
