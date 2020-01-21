@@ -12,7 +12,10 @@ all: square.o main.o
 run: all
 	./a.out
 
-ifeq (${THISVARDOESNTEXIST},DUMMYVALUE)
+clean:
+	rm a.out main.o square.o
+
+ifeq (A,B)
 #endif
 
 #include <stdio.h>

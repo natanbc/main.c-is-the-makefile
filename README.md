@@ -14,7 +14,9 @@ Me too
 
 # How the fuck
 
-`#` marks a line as a comment in `Makefile`s. `#if 0` is a C preprocessor directive
-that basically ignores all text until a matching `#endif`. Add these two and you
-have this monstrosity.
+`main.c` is C code embedded inside a Makefile, which is embedded in C code.
+
+- C compilers ignore all the text between `#if 0` and `#endif`
+- `#` marks a line as a comment in a Makefile
+- make ignores all text between `ifeq (A,B)` and `endif`
 
