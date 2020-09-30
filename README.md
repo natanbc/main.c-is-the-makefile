@@ -2,7 +2,7 @@
 
 `make -f main.c run`
 
-![Demo](https://i-was-scammed-by.dabbot.org/4fpzbyv.png)
+![Demo](https://owo.whats-th.is/4fpzbyv.png)
 
 # WHY
 
